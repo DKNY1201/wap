@@ -1,0 +1,58 @@
+.parent {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    background-color: red;
+}
+
+.child {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: #367bb5;
+}
+
+.flex-container {
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.flex-item.six{
+    order: 1;
+}
+
+.flex-item.one {
+    order: 3;
+}
+
+.flex-item.five {
+    order: 2;
+    align-self: flex-end;
+}
+
+.flex-item.four {
+    order: 4;
+
+}
+
+h1, h2 {
+    background-image: url("https://yt3.ggpht.com/-vUKgpmi4sck/AAAAAAAAAAI/AAAAAAAAAAA/OjkTiri6klw/s900-c-k-no-mo-rj-c0xffffff/photo.jpg");
+}

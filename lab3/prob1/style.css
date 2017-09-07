@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#float-box .container {
+    width: 90%;
+    padding: 10px;
+    border: 2px dashed #000000;
+    /*display: flex;*/
+    /*flex-flow: row wrap;*/
+    /*justify-content: space-around;*/
+    overflow: auto;
+    margin: 0 auto;
+}
+
+#float-box .container .item {
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    float: left;
+    margin: 10px;
+}
+
+.clearfix {
+    clear: left;
+}
+
+#menu ul {
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#menu ul li {
+    text-align: center;
+    padding: 5px 7px;
+    border: 1px solid #000000;
+    display: inline;
+    margin: 3px;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+#layout-2 {
+    width: 500px;
+    background: lightgray;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#layout-2 h1 {
+    background: yellow;
+    margin: 15px 0 10px;
+    font-size: 20px;
+}
+
+#layout-2 #content > div h2 {
+    font-size: 16px;
+}
+
+#layout-2 #content > div:first-child {
+    margin-right: 0;
+}
+
+#layout-2 .column {
+    width: 100px;
+    background: lightblue;
+    float: right;
+    margin: 0 10px 10px 0;
+}
+
+/* ========== MORE FLOAT ========== */
+
+.more-float {
+    width: 500px;
+}
+
+#a, #b {
+    width: 100px;
+    height: 100px;
+    font: 30pt bold Helvetica, Arial, sans-serif;
+    line-height: 100px;
+    text-align: center;
+}
+#a { background-color: lightblue; }
+#b { background-color: pink; }
+#c { background-color: lightgray; }
+
+#more-float-1 #a {
+    float: left;
+}
+
+#more-float-1 #b {
+    float: right;
+}
+
+#more-float-2 #a {
+    float: left;
+}
+
+#more-float-2 #b {
+    float: right;
+    clear: left;
+}
+
+#more-float-3 #a {
+    float: left;
+}
+
+#more-float-3 #b {
+    float: right;
+    clear: left;
+}
+
+#more-float-3 #c {
+    clear: left;
+    text-align: right;
+}
+
+#more-float-4 #a {
+    float: left;
+}
+
+#more-float-4 #b {
+    float: right;
+    clear: left;
+}
+
+#more-float-4 #c {
+    width: 100px;
+    margin: 0 auto;
+}
+
+#more-float-5 #a {
+    float: right;
+}
+
+#more-float-5 #b {
+    float: left;
+}
+
+#more-float-5 #c {
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+
+#more-float-6 {
+    position: relative;
+}
+
+#more-float-6 #a {
+    float: right;
+}
+
+#more-float-6 #b {
+    position: absolute;
+    top: 50px;
+    right: 90px;
+}
+
+#more-float-6 #c {
+    margin: 0 100px 0 0;
+    text-align: center;
+    clear: right;
+}
+
+#more-float-7 #a {
+    float: left;
+}
+
+#more-float-7 #b {
+    float: left;
+}
+
+#more-float-7 #c {
+    float: left;
+    width: 200px;
+}
+
+#more-float-8 #a {
+    float: left;
+}
+
+#more-float-8 #b {
+    background-color: transparent;
+}
+
+#more-float-8 #c {
+    float: left;
+}
+
+#more-float-9 #a {
+    float: left;
+}
+
+#more-float-9 #b {
+    float: left;
+}
+
+#more-float-9 #c {
+    float: left;
+    margin-top: 100px;
+}
