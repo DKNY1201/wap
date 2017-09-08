@@ -35,11 +35,16 @@
 
         #newsHeadlines header {
             grid-area: header;
-            color: #ffffff;
-            background: orange;
             display: grid;
             grid-template-columns: 50% 50%;
             grid-template-rows: minmax(60px, auto);
+            grid-gap: 1em;
+            background: orange;
+        }
+
+        #newsHeadlines header section {
+            color: #ffffff;
+            background: orange;
         }
 
         #mainHeadline {
