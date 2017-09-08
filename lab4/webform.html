@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Form</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="get" id="login-form">
+        <div class="row email">
+            <label for="email">Email address</label>
+            <input id="email" type="text" name="email" placeholder="Enter email"
+                   pattern="[\da-zA-Z_\-]+@([\da-zA-Z_\-]+\.)+[a-z]{2,4}" required>
+            <p>We'll never share your email with anyone else.</p>
+        </div>
+        <div class="row password">
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" placeholder="Password"
+                   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+        </div>
+        <label><input type="checkbox" name="checkmeout"> Check me out</label>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
