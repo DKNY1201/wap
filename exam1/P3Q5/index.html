@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            color: #ffffff;
+        }
+
+        .flex-item {
+            margin: 2px;
+            padding: 10px;
+        }
+
+        .container header {
+            background-color: #157ffb;
+        }
+
+        .container .section-1 {
+            display: flex;
+            flex-direction: row;
+            overflow: hidden;
+        }
+
+        .container .section-1 .left-sidebar {
+            background-color: sienna;
+            flex: 0 0 25%;
+        }
+
+        .container .section-1 article {
+            background-color: deeppink;
+            flex: 0 0 50%;
+        }
+
+        .container .section-1 .right-sidebar {
+            background-color: tomato;
+            flex: 0 0 25%;
+        }
+
+        .container .footer-1{
+            background-color: springgreen;
+        }
+
+        .container .footer-2{
+            background-color: palevioletred;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container .footer-2 span {
+            flex: 0 0 50%;
+        }
+
+        .container .footer-2 span:last-child {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="flex-item">
+            <h1>Header</h1>
+        </header>
+        <section class="section-1">
+            <aside class="left-sidebar flex-item">
+                <h1>Left Sidebar</h1>
+            </aside>
+            <article class="flex-item">
+                <h1>Main Content</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae volutpat ante, ut aliquam nibh. Quisque tincidunt magna sapien, bibendum mattis odio ullamcorper eget. Nullam est nunc, vulputate at aliquet consequat, imperdiet nec ante. Morbi sit amet elit eget quam auctor condimentum quis quis dui. Integer in ex non quam eleifend bibendum nec ut ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec a enim nec velit semper malesuada vel eget leo. Duis ut ipsum ut mi dignissim accumsan et id leo. Maecenas faucibus sed erat nec pharetra. Nulla pretium lorem quis egestas finibus. Aliquam in lacus vitae nulla placerat vestibulum. Nulla sed orci faucibus, vulputate purus in, auctor ligula. Donec quis vestibulum orci. Cras id velit sit amet orci rhoncus condimentum eget sit amet ipsum. Duis tempus sed enim at iaculis. Donec augue leo, egestas eget odio eget, feugiat tincidunt sem.</p>
+            </article>
+            <aside class="right-sidebar flex-item">
+                <h1>Right Sidebar</h1>
+            </aside>
+        </section>
+        <footer class="footer-1 flex-item"><h1>Primary Footer</h1></footer>
+        <footer class="footer-2 flex-item">
+            <span><a href="#">Secondary footer</a></span>
+            <span>&copy; 2017 - <a href="#">CS472 - WAP</a></span>
+        </footer>
+    </div>
+</body>
+</html>
