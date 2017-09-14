@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 // window.open("http://truongphusteel.vn","Truong Phu Steel", "width=900, height=600, scrollbars=1");
 // function max(a, b) {
 //     console.log(typeof (a) + "==" + typeof (b));
@@ -347,6 +347,302 @@
 //
 // agrs(1,'q', [2,3]);
 
-const multiple = (a1, a2) => a1 * a2;
-let result = multiple(5,4);
-console.log(result);
+// const multiple = (a1, a2) => a1 * a2;
+// let result = multiple(5,4);
+// console.log(result);
+
+
+// function log() {
+//     console.log("log1");
+// }
+//
+// function log1(x) {
+//     console.log("log2" + x);
+// }
+//
+// function log(x, y) {
+//     console.log("log3 " + x + y);
+// }
+// log();
+// log(2,3);
+
+// const details = ['Jim', 123, 'mum.edu'];
+// const [name, id, website] = details;
+// console.log(id);
+// console.log(name);
+// console.log(website);
+
+// function total(x, y, ...mores) {
+//     let total = 0;
+//     total = x + y;
+//
+//     if (mores.length > 0) {
+//         for (let n in mores.entries()) {
+//             total += +n;
+//         }
+//     }
+//
+//     return total;
+// }
+//
+// console.log(total(5));
+// console.log(total(5, 1));
+// console.log(total(5, 1, 2, 4));
+
+// function listProducts(...products) {
+//     for (let p of products) {
+//         console.log(p);
+//     }
+// }
+//
+// let products = ['apple', 'banana'];
+// listProducts(products);
+
+// let str1 = `string 1`;
+// let str2 = `string 2
+// string 3
+// `;
+// let myName = 'Peter';
+// let str3 = `my name is
+//  ${myName}`;
+//
+// console.log(str1);
+// console.log(str2);
+// console.log(str3);
+
+
+// Mouse Event
+// window.onload = function () {
+//     let box = document.getElementById("box");
+//     box.addEventListener('mousemove', function (m) {
+//         console.log(m.pageX);
+//         console.log(m.screenX);
+//     });
+// }
+
+//
+// function a() {
+//     console.log(this);
+// }
+// var b = {
+//     log: function () {
+//         console.log(this);
+//     }
+// }
+// console.log(this);
+// a();
+// b.log();
+
+// function a() {
+//     this.newvariable = 'Hello';
+// }
+// // console.log(newvariable);
+// a();
+// console.log(newvariable);
+
+// let a = {
+//     name: '',
+//     log: function () {
+//         this.name = 'Peter';
+//         console.log(this.name);
+//         const self = this;
+//         let changeName = function (newName) {
+//             self.name = newName;
+//             console.log(this);
+//         }
+//         changeName('Quy Tran');
+//         console.log(this.name);
+//         console.log(this);
+//     }
+// }
+// a.log();
+
+// let box = document.getElementById("box");
+// box.addEventListener('click', function () {
+//     this.style.backgroundColor = '#990000';
+//     setTimeout(() => {console.log(this)}, 1000);
+//     setTimeout(function () {
+//         console.log(this);
+//     }, 1000);
+// })
+
+// console.log(1);
+// setTimeout(() => {console.log(2)},1000);
+// setTimeout(() => {console.log(3)},0);
+// console.log(4);
+
+
+// var funcs = [];
+// for (let i = 0; i < 5; i++) {
+//     funcs[i] = function () {
+//         return i;
+//     }
+// }
+//
+// console.log(funcs[0]());
+// console.log(funcs[4]());
+//
+// var funcs = [];
+// const helper = function (n) {
+//     return function () {
+//         return n;
+//     }
+// }
+//
+// for (var i = 0; i < 5; i++) {
+//     funcs[i] = i;
+// }
+//
+//
+//
+// console.log(funcs[0]);
+// console.log(funcs[4]);
+// console.log(funcs[5]());
+
+// var a = 10;
+// (function () {
+//     console.log(a);
+//     b = 100;
+//     console.log(b);
+// }());
+// console.log(b);
+
+
+// var funcs = [];
+// for (var i = 0; i < 5; i++) {
+//     funcs[i] = (function (n) {
+//         return function () {
+//             return n;
+//         }
+//     })(i);
+// }
+//
+// console.log(funcs[0]());
+// console.log(funcs[4]());
+
+// window.onload = function () {
+//
+//     function makeSizer(size) {
+//         return function () {
+//             return document.body.style.fontSize = size + 'px';
+//         }
+//     }
+//
+//     document.getElementById('p14').addEventListener('click', makeSizer(14));
+//     document.getElementById('p18').addEventListener('click', makeSizer(18));
+//     document.getElementById('p24').addEventListener('click', makeSizer(24));
+//
+//     let btns = document.getElementsByClassName('font-size-changer');
+//
+//     for (let btn of btns) {
+//         btn.addEventListener('click', function() {
+//             console.log(this);
+//             const val = this.innerText;
+//             console.log(val);
+//             document.body.style.fontSize = val;
+//         });
+//     }
+//
+// }
+//
+// (function () {
+//     var count = 0;
+//     console.log(count);
+// })();
+//
+//
+// console.log(count);
+//
+// var counter = (function () {
+//     var privateCounter = 0;
+//
+//     function changeBy(val) {
+//         privateCounter += val;
+//     }
+//
+//     return {
+//         increment: () => {changeBy(1)},
+//         decrement: () => {changeBy(-1)},
+//         value: () => {console.log(privateCounter)}
+//     }
+// })();
+//
+//
+// counter.increment();
+// counter.increment()
+// counter.value();
+// counter.decrement();
+// counter.value();
+
+
+// var counter1 = function () {
+//     var privateCounter = 0;
+//
+//     function changeBy(val) {
+//         privateCounter += val;
+//     }
+//
+//     return {
+//         increment: () => {changeBy(1)},
+//         decrement: () => {changeBy(-1)},
+//         value: () => {console.log(privateCounter)}
+//     }
+// };
+//
+// var c = new counter1();
+// var c1 = new counter1();
+// c.increment();
+// c1.increment();
+// c1.increment();
+// c.value();
+// c1.value();
+
+
+// var a = {};
+// console.log(a.__proto__);
+// console.log(a.__proto__.__proto__);
+// var b = function () {
+//
+// }
+// console.log(b.__proto__.__proto__.__proto__);
+
+
+// let a = {
+//     x: 10,
+//     calculate: function (z) {
+//         return this.x + this.y + z;
+//     }
+// }
+//
+// let b = {
+//     y: 20,
+//     __proto__: a
+// }
+//
+// let c = {
+//     y: 30,
+//     __proto__: a
+// }
+// //
+// // console.log(b.calculate(30));
+// // console.log(c.calculate(40));
+//
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+let person = {
+    first: 'Default First',
+    last: 'Default Last',
+    greet: function () {
+        console.log('Hi! ' + this.first);
+    }
+}
+
+let peter =  Object.create(person);
+console.log(person);
+
+peter.first = 'Tran';
+peter.greet();
+
