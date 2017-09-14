@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 // window.open("http://truongphusteel.vn","Truong Phu Steel", "width=900, height=600, scrollbars=1");
 // function max(a, b) {
 //     console.log(typeof (a) + "==" + typeof (b));
@@ -188,21 +188,165 @@
 //     f(50);
 //     console.log("x6 is " + x); // 40
 // }
-
+//
 // main();
 // console.log("x7 is " + x); // 10
 
 
-function b() {
+// function b() {
+//
+//     function a() {
+//         console.log(x); // 20
+//     }
+//     var x = 10;
+//     a();
+//
+// }
+//
+// var x = 20;
+// b();
 
-    function a() {
-        console.log(x); // 20
-    }
-    var x = 10;
-    a();
+// function a() {
+//     console.log(x);
+// }
+//
+// function b() {
+//     var x = 20;
+//     a();
+//     // console.log(x); // 20
+// }
+//
+// var x = 30;
+// b();
 
-}
+// console.log(x); // 30
 
-var x = 20;
-b();
+// function b() {
+//     function a() {
+//         console.log(x);
+//     }
+//     var x = 10;
+//     a();
+// }
+// var x = 20;
+// b();
 
+// function b() {
+//     function a() {
+//         console.log(x);
+//     }
+//     a();
+// }
+// var x = 20;
+// b();
+
+// function f() {
+//     var a = 1, b = 20, c;
+//     console.log(a + " " + b + " " + c); // 1 20 undefined
+//
+//     function g() {
+//         var b = 300, c = 4000;
+//         console.log(a + " " + b + " " + c); // 1 300 4000
+//         a = a + b + c;
+//         console.log(a + " " + b + " " + c); // 4301 300 4000
+//     }
+//
+//     console.log(a + " " + b + " " + c); // 1 20 undefined
+//     g();
+//     console.log(a + " " + b + " " + c); // 4301 20 undefined
+// }
+// f();
+
+// function a() {
+//     for (var x = 0; x < 10; x++) {
+//         console.log(x);
+//     }
+//
+//     console.log(x);
+// }
+// a();
+//
+// function b() {
+//     for (let x = 0; x < 10; x++) {
+//         console.log(x);
+//     }
+//
+//     console.log(x);
+// }
+// b();
+
+
+// let a = 10;
+// var b = 10;
+//
+// console.log(this.a);
+// console.log(this.b);
+
+//
+// const MY_NUM = 7;
+// // MY_NUM = 20;
+// console.log(MY_NUM);
+// // const MY_NUM = 10;
+// console.log(MY_NUM);
+// // var MY_NUM = 15;
+// console.log(MY_NUM);
+//
+// // const FOO;
+//
+// const MY_OBJ = {'studentID': '985848'};
+// // const MY_OBJ = {'firstName': 'Quy'};
+// Object.freeze(MY_OBJ);
+// MY_OBJ.studentID = '999999';
+// console.log(MY_OBJ);
+
+// eat();
+// function eat() {
+//     console.log('eat');
+// }
+//
+// let act = function() {
+//     console.log('Jummy');
+// }
+//
+// act.meal = 'pizza';
+//
+//
+// console.log(act.meal);
+
+// var a = {'name': 'quy tran'};
+// var b = a;
+//
+// b.name = 'kim long';
+//
+// a = {'name': 'quy tran'};
+//
+// console.log(a.name);
+// console.log(b.name);
+
+
+// function invoker(x) {
+//     x();
+// }
+//
+// function hi() {
+//     console.log('hi');
+// }
+//
+// invoker(hi);
+//
+// invoker(function () {
+//     console.log('aaa');
+// })
+
+// Argument
+// function agrs() {
+//     for (var i of arguments) {
+//         console.log(i);
+//     }
+// }
+//
+// agrs(1,'q', [2,3]);
+
+const multiple = (a1, a2) => a1 * a2;
+let result = multiple(5,4);
+console.log(result);

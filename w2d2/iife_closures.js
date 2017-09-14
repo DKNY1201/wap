@@ -20,31 +20,20 @@
         }
     });
 
-    // const btnSubmit = document.querySelector('#btn-submit');
     const studentForm = document.querySelector('#student-form');
-
-    // btnSubmit.addEventListener('click', function () {
-    //     const studentItem = document.createElement('li');
-    //     studentItem.className = 'list-group-item';
-    //     const studentID = document.querySelector('#student-id');
-    //     const firstName = document.querySelector('#first-name');
-    //     studentItem.innerText = studentID.value + ' - ' + firstName.value;
-    //     studentList.appendChild(studentItem);
-    //
-    //     // Reset form
-    //     studentID.value = '';
-    //     firstName.value = '';
-    // });
 
     studentForm.addEventListener('submit', function (evt) {
         evt.preventDefault();
+
         const studentItem = document.createElement('li');
         studentItem.className = 'list-group-item';
+
         const studentID = document.querySelector('#student-id');
         const firstName = document.querySelector('#first-name');
         studentItem.innerText = studentID.value + ' - ' + firstName.value;
         const studentObj =  {'studentID': studentID.value, 'firstName' : firstName.value};
         students.push(studentObj);
+
         studentList.appendChild(studentItem);
 
         // Reset form
