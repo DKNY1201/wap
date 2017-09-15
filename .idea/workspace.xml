@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ab550da-607d-4477-b681-408e7ea34160" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/w2d4/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/w2d4/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/w2d4/studentdata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/w2d4/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/wap.iml" afterPath="$PROJECT_DIR$/.idea/wap.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/w2d4/maze/maze.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/w2d4/app.js" afterPath="$PROJECT_DIR$/w2d4/student-form/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/w2d4/index.html" afterPath="$PROJECT_DIR$/w2d4/student-form/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/w2d4/studentdata.json" afterPath="$PROJECT_DIR$/w2d4/student-form/studentdata.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/w2d4/style.css" afterPath="$PROJECT_DIR$/w2d4/student-form/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w2d1/index.html" afterPath="$PROJECT_DIR$/w2d1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/w2d1/intro_javascript.js" afterPath="$PROJECT_DIR$/w2d1/intro_javascript.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,27 +20,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w2d4/index.html">
+        <entry file="file://$PROJECT_DIR$/w2d4/student-form/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="57" />
+              <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/w2d4/app.js">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/w2d4/student-form/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="465">
+              <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/w2d4/maze/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2">
+              <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maze.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/w2d4/maze/maze.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="studentdata.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w2d4/studentdata.json">
+        <entry file="file://$PROJECT_DIR$/w2d4/student-form/studentdata.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="11" />
@@ -65,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/aboutme.html" />
         <option value="$PROJECT_DIR$/styleme.css" />
         <option value="$PROJECT_DIR$/flex.html" />
         <option value="$PROJECT_DIR$/flex.css" />
@@ -116,6 +132,7 @@
         <option value="$PROJECT_DIR$/w2d4/index.html" />
         <option value="$PROJECT_DIR$/w2d4/studentdata.json" />
         <option value="$PROJECT_DIR$/w2d4/app.js" />
+        <option value="$PROJECT_DIR$/w2d4/maze.js" />
       </list>
     </option>
   </component>
@@ -177,6 +194,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="w2d4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="student-form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="w2d4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maze" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,6 +284,8 @@
       <recent name="$PROJECT_DIR$/lab3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/w2d4/student-form" />
+      <recent name="$PROJECT_DIR$/w2d4/maze" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lab3/prob1" />
     </key>
@@ -678,16 +719,15 @@
       <updated>1504638149679</updated>
       <workItem from="1504638151585" duration="30083000" />
       <workItem from="1504967240384" duration="7954000" />
-      <workItem from="1505159463276" duration="54787000" />
+      <workItem from="1505159463276" duration="59636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92824000" />
+    <option name="totallyTimeSpent" value="97673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -704,7 +744,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -735,42 +775,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/quizzes/student-registration-form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="71" lean-forward="false" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styleme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="75" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aboutme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="56" column="135" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab3/prob1/floatbox.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1105,7 +1109,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/w2d4/studentdata.json">
+    <entry file="file://$PROJECT_DIR$/w2d4/student-form/studentdata.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="11" />
@@ -1113,18 +1117,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/w2d4/index.html">
+    <entry file="file://$PROJECT_DIR$/w2d4/maze_files/maze.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="57" />
+        <state relative-caret-position="330">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/w2d4/app.js">
+    <entry file="file://$PROJECT_DIR$/w2d4/maze_files/maze.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w2d4/maze.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w2d4/student-form/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w2d4/maze/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w2d4/student-form/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w2d4/maze/maze.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="3" />
           <folding />
         </state>
       </provider>
