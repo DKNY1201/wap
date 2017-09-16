@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exam 2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Bank Account Form</h1>
+            <form method="get" id="customer-form">
+                <div class="form-group">
+                    <label for="account-no">Account No</label>
+                    <input type="text" id="account-no" placeholder="01-XXX-XXXX" class="form-control" pattern="01-\d{3}-\d{4}" required>
+                    <span class="form-text text-muted">Your unique account number.</span>
+                </div>
+                <div class="form-group">
+                    <label for="customer-name">Customer Name</label>
+                    <input type="text" id="customer-name" placeholder="e.g John B. Smith" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="account-type">Type of Account</label>
+                    <select name="account-type" id="account-type" class="form-control">
+                        <option value="Checking">Checking</option>
+                        <option value="Savings">Savings</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" id="btn-submit" type="submit">Create New Account</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <ul id="customer-list" class="list-group">
+                <li class="list-group-item active bg-primary border-primary">List of Customer Accounts</li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

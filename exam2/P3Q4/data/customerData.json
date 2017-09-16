@@ -1,0 +1,13 @@
+{
+  "customers": [
+    {
+    "customerID": "01-980-0001",
+    "name": "Jame H. Karvill",
+    "accountType": "Savings"
+  }, {
+      "customerID": "01-980-0002",
+      "name": "Anna",
+      "accountType": "Checking"
+    }
+  ]
+}

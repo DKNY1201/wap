@@ -72,20 +72,15 @@
 
 
 // Question 6
-// var count = (function () {
-//     var counter = 0;
-//
-//     if (true) {
-//         let a = 100;
-//         var b = 1000;
-//     }
-//
-//     return {
-//         add: () => ++counter,
-//         reset: () => { counter = 0; },
-//         get: () => counter
-//     }
-// })();
+var count = (function () {
+    var counter = 0;
+
+    return {
+        add: () => ++counter,
+        reset: () => { counter = 0; },
+        get: () => counter
+    }
+})();
 //
 // count.add();
 // count.add();
@@ -127,35 +122,35 @@
 
 
 // Question 10
-// var Employee = (function () {
-//     var name;
-//     var age;
-//     var salary;
-//
-//     function getAge() {
-//         return age;
-//     }
-//
-//     function getSalary() {
-//         return salary;
-//     }
-//
-//     function getName() {
-//         return name;
-//
-//     }
-//
-//     return {
-//         setAge: newAge => {age = newAge},
-//         setSalary: newSalary => {salary = newSalary},
-//         setName: newName => {name = newName},
-//         increaseSalary: percentage => {salary = getSalary() + (getSalary() * percentage) / 100},
-//         incrementAge: () => {age = getAge() + 1},
-//         getAgePub: () => getAge(),
-//         getSalaryPub: () => getSalary(),
-//         getNamePub: () => getName()
-//     }
-// })();
+var Employee = (function () {
+    var name;
+    var age;
+    var salary;
+
+    function getAge() {
+        return age;
+    }
+
+    function getSalary() {
+        return salary;
+    }
+
+    function getName() {
+        return name;
+
+    }
+
+    return {
+        setAge: newAge => {age = newAge},
+        setSalary: newSalary => {salary = newSalary},
+        setName: newName => {name = newName},
+        increaseSalary: percentage => {salary = getSalary() + (getSalary() * percentage) / 100},
+        incrementAge: () => {age = getAge() + 1},
+        getAgePub: () => getAge(),
+        getSalaryPub: () => getSalary(),
+        getNamePub: () => getName()
+    }
+})();
 //
 // Employee.setName('Peter');
 // Employee.setAge(27);
